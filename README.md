@@ -24,9 +24,9 @@ Changes between 'DOC START' and 'DOC END' will not be lost on package update
 
 ## Usage
 
-Remove old CanvasScaler and add CanvasScalerPS component to Canvas.
-Set UI Scale Mode: Constant Physical Size.
-Configurate screen scaling in Scales array.
+* Remove old CanvasScaler and add CanvasScalerPS component to Canvas
+* Set UI Scale Mode: Constant Physical Size
+* Configurate screen scaling in Scales array
 
 Current diagonal and scaling display in inspector.
 
