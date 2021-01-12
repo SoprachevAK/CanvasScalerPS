@@ -3,7 +3,7 @@
 #### Using UnityPackageManager (for Unity 2019.3 or later)
 Open the package manager window (menu: Window > Package Manager)<br/>
 Select "Add package from git URL...", fill in the pop-up with the following link:<br/>
-https://github.com/coryleach/UnityPackages.git#1.0.2<br/>
+https://github.com/SoprachevAK/CanvasScalerPS.git<br/>
 
 #### Using UnityPackageManager (for Unity 2019.1 or later)
 
@@ -11,7 +11,7 @@ Find the manifest.json file in the Packages folder of your project and edit it t
 ```js
 {
   "dependencies": {
-    "com.gameframe.packages": "https://github.com/coryleach/UnityPackages.git#1.0.2",
+    "com.soprachevak.canvas-scaler-ps": "https://github.com/SoprachevAK/CanvasScalerPS.git",
     ...
   },
 }
@@ -24,19 +24,11 @@ Changes between 'DOC START' and 'DOC END' will not be lost on package update
 
 ## Usage
 
-Open the window using the gameframe menu.
+Remove old CanvasScaler and add CanvasScalerPS component to Canvas.
+Set UI Scale Mode: Constant Physical Size.
+Configurate screen scaling in Scales array.
 
-Gameframe->Packages->Maintain
-The maintain tab displays and allows you to edit package manifest details
-It also has a button for updating the README file.
-
-Gameframe->Packages->Create
-The create tab is used for creating new packages.
-You can create packages either embeded in the Unity project or in the chosen source directory.
-
-Gameframe->Packages->Embed
-The embed tap will scan the source directory for packages.
-Clicking the 'embed' button on a package will create a softlink to the package in the project's Packages folder.
+Current diagonal and scaling display in inspector.
 
 <!-- DOC-END -->
 
