@@ -73,9 +73,3 @@ crashlytics-build.properties
 # MacOS
 
 .DS_Store
-
-# Packeges
-/CHANGELOG.md.meta
-/LICENSE.md.meta
-/README.md.meta
-/packeges.json.meta
