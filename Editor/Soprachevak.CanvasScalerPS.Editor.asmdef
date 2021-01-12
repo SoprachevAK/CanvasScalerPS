@@ -1,0 +1,17 @@
+{
+    "name": "CanvasScalerPS",
+    "references": [
+        "GUID:6bc2ef275a2074fd0ba03d097cff64cb"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

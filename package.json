@@ -1,0 +1,23 @@
+{
+  "name": "com.soprachevak.canvas-scaler-ps",
+  "version": "1.0.0",
+  "displayName": "CanvasScaler PS",
+  "description": "Physical Size scalable CanvasScaler",
+  "dependencies": {
+    "com.unity.ugui": "1.0.0"
+  },
+  "keywords": [
+    "UI",
+    "Canvas",
+    "Scaler",
+    "Physical",
+    "Size",
+    "CanvasScaler"
+  ],
+  "author": {
+    "name": "Soprachev Andrei",
+    "email": "soprachev@mail.ru",
+    "url": "https://soprachev.com"
+  },
+  "unity": "2019.4"
+}
