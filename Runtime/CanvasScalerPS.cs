@@ -12,6 +12,8 @@ namespace AS.CanvasScalerPS
             public float scaleFactor;
         }
 
+        public float scaleMultyplier = 1;
+
         public scaleFactors[] m_scales = {
         new scaleFactors
         {
@@ -42,7 +44,7 @@ namespace AS.CanvasScalerPS
                 i++;
             }
 
-            return m_scales[i].scaleFactor;
+            return m_scales[i].scaleFactor * scaleMultyplier;
         }
 
         protected override void HandleConstantPhysicalSize()

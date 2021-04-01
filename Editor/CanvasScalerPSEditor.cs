@@ -14,6 +14,7 @@ namespace AS.CanvasScalerPS
         SerializedProperty m_PhysicalUnit;
         SerializedProperty m_FallbackScreenDPI;
         SerializedProperty m_Scales;
+        SerializedProperty m_ScaleMultyplier;
         SerializedProperty m_DefaultSpriteDPI;
         SerializedProperty m_DynamicPixelsPerUnit;
         SerializedProperty m_ReferencePixelsPerUnit;
@@ -56,6 +57,7 @@ namespace AS.CanvasScalerPS
             m_DefaultSpriteDPI = serializedObject.FindProperty("m_DefaultSpriteDPI");
             m_DynamicPixelsPerUnit = serializedObject.FindProperty("m_DynamicPixelsPerUnit");
             m_ReferencePixelsPerUnit = serializedObject.FindProperty("m_ReferencePixelsPerUnit");
+            m_ScaleMultyplier = serializedObject.FindProperty("scaleMultyplier");
         }
 
         public override void OnInspectorGUI()
@@ -141,6 +143,7 @@ namespace AS.CanvasScalerPS
                     EditorGUILayout.LabelField(string.Format("Current diagonal = {0}; current scale = {1}",
                     d.ToString("0.00"),
                     (target as CanvasScalerPS).getCurrentScreenScale(int.Parse(res[0]), int.Parse(res[1]), Screen.dpi)));
+                    EditorGUILayout.PropertyField(m_ScaleMultyplier);
                     EditorGUILayout.PropertyField(m_Scales, true);
                 }
 

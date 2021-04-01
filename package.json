@@ -1,6 +1,6 @@
 {
   "name": "com.soprachevak.canvas-scaler-ps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "CanvasScaler PS",
   "description": "Physical Size scalable CanvasScaler",
   "dependencies": {
